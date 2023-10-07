@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.desafio2-b{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 60px;
+    height: auto;
+    align-content: space-around;
+}
+
+.laDelh2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.stickerDesafio{
+    width: 200px;
+    height: 200px;
+}
+
+.stickerDesafio img{
+    width: 200px;
+    height: 200px;
+}
+
+.laDelBoton{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 50px;
+}
