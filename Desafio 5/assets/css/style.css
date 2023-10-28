@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+header{
+    display: flex;
+    height: 15vh;
+    border-bottom: 2px solid darkgray;
+}
+
+h2{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+main{
+    display: flex;
+    padding-top: 40px;
+    height: 200px;
+    justify-content: center;
+}
+
+main p{
+    font-size: 15px;
+}
+
+main input{
+    width: 80vh;
+
+}
+
+.agregarTarea{
+    background-color: green;
+    width: 80px;
+    height: 30px;
+    border-radius: 10%;
+    border: none;
+    color: white;
+}
+
+.resultados{
+    display: flex;
+    justify-content: center;
+
+}
+
+.totalRealizadas{
+    width: 50vh;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+button{
+    width: 20px;
+    margin-left: 20px;
+
+}
+
+.checkbox{
+    width: 20px;
+
+}
+
+
