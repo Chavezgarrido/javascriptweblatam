@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen - Conversor de monedas</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+</head>
+<body>
+    <header>
+        <h1>Conversor de monedas nacional</h1>
+    </header>
+
+    <main class="mainContenedor">
+
+        <section class="pesosChilenos">
+            <label for="ingresoValor">Pesos Chilenos (CLP):</label>
+            <input type="number" placeholder="Ingrese el monto" id="ingresoValor">
+        </section>
+
+        <section class="monedaAConvertir">
+            <label for="monedaConvertir">Moneda a convertir:</label>
+            <select id="monedaConvertir">
+                <option value="euro">Euro (EUR)</option>
+                <option value="dolar">Dolar (USD)</option>
+                <option value="uf">Unidad de fomento (UF)</option>
+                <option value="utm">Unidad Tributaria Mensual (UTM)</option>
+            </select>
+        </section>
+
+        <section class="btnResultado">
+            <button onclick="cambiarValor()">Convertir valor</button>
+        </section>
+
+        <section id="resultadoConversion"></section>
+    
+        <!-- No pude hacer el grafico, lo siento :c -->
+            
+    </main>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
